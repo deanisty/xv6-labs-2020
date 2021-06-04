@@ -58,7 +58,7 @@ accept_number(int in) {/*{{{*/
         if(base == 0) {
             base = CHAR2INT(buf);
             // print
-            printf("prime: %d pid: %d\n", base, getpid());
+            printf("prime %d\n", base);
         } else {
             // pass to right
             if(CHAR2INT(buf) % base > 0) {
